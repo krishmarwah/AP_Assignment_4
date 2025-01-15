@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.demo.MenuController">
+    <Label text="Welcome to Byte Me! Menu" style="-fx-font-size: 18px;"/>
+    <TableView fx:id="menuTable" prefHeight="400" prefWidth="600">
+        <columns>
+            <TableColumn text="Item Name" prefWidth="200"/>
+            <TableColumn text="Price" prefWidth="100"/>
+            <TableColumn text="Availability" prefWidth="100"/>
+        </columns>
+    </TableView>
+    <Button text="View Pending Orders" onAction="#onViewOrdersClick"/>
+</VBox>

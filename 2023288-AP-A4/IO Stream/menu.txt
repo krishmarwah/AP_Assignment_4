@@ -1,0 +1,2 @@
+Burger,50.0,Fast Food,Yes
+Coke,50.0,Beverages,Yes
